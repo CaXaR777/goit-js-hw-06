@@ -12,7 +12,7 @@ function useForm(event) {
   const password = event.currentTarget.elements.password;
 
   if (email.value === "" || password.value === "") {
-    console.log("ALERT!!!");
+    alert("All fields must be filled!");
   } else {
     // console.log(email, password);
 

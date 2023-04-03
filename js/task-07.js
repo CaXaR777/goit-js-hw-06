@@ -3,6 +3,8 @@ const tSControler = document.querySelector("#font-size-control");
 
 console.log(textSize, tSControler);
 
+textSize.style.fontSize = `${tSControler.value}px`;
+
 tSControler.addEventListener("input", checkValue);
 
 function checkValue(event) {
